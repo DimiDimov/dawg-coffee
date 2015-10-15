@@ -1,1 +1,173 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: "Lato" Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #E9EAEE;
+	width: 100%;
+}
+h1 {
+	font-size: 3em;
+	font-family: "Raleway" Helvetica Neue, Helvetica, sans-serif;
+	padding-top: 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	color: black;
+}
+h1 p {
+	visibility: hidden;
+	font-size: .3em;
+}
+h2 {
+	color: #bc6026;
+}
+nav {
+	position: fixed;
+	top: 0px;
+	background-color: #181c22;
+	font-size: 16px;
+	margin-left: 15px;
+	display: inline;
+	padding: 0.5em;
+	z-index: 1;
+	width: 100%;
+}
+nav a {
+	color: white;
+	fill: white;
+}
+
+svg {
+	height: 1em;
+}
+li {
+	display: inline;
+	padding: 0.5em;
+	font-variant: small-caps;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #D87E28;
+}	
+svg:hover{
+	height: 1em;
+	color: #D87E28
+}
+nav li {
+	display: inline;
+}
+nav svg:hover {
+
+}
+footer {
+	border-top: 3px;
+	border-style: solid;
+	padding-top: 1em;
+	background-color: #afb3c2;
+	font-size: 12px;
+}
+#story {
+	float: right;
+	max-height: 300px;
+	margin-left: 1em;
+}
+#brand2 {
+	visibility: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#headline {
+	font-style: italic;
+
+
+}
+key {
+	font-size: 1em;
+	font-style: bold;
+}
+value {
+	font-size: .7em;
+	padding-left: 1em;
+	font-style: italic;
+
+}
+.lilSvg {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.littlePics {
+
+}
+#information {
+	text-align: center;
+	background-color = dbdce3;
+}
+#col1 {
+	text-align: center;
+}
+#col1 p {
+	padding-top: 30px;
+}
+#top p {
+	font-size: .5em;
+}
+#map {
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+@media (min-width: 768px) {
+	#story {
+		max-height: 400px;
+	}
+	#headline {
+		font-size: 1.25em;
+		text-align: center;
+		padding-bottom: 3em;
+	}
+	nav {
+		padding: 1em;
+	}
+	body {
+		font-size: 20px;
+
+	}
+	h1 {
+		min-height: 550px;
+		background-repeat: no-repeat;
+		background-image: url("../img/background-sm.jpg");
+		color: white;
+		text-align: right;
+	}
+	h1 p {
+		visibility: visible;
+	}
+    h2 {
+     text-align: center
+     padding-bottom: 1em;
+ 	}
+
+ 	#brand2 {
+ 		visibility: visible;
+ 		height: 1.5em
+ 		padding-bottom: 1em;
+ 	}    
+}
+@media (min-width: 992px) {
+	h1 {
+		font-size: 4em;
+		background-image: url("../img/background-md.jpg")
+	}
+}
+@media (min-width: 1200px) {
+	h1 {
+		background-image: url("../img/background-md.jpg")
+	}
+}
